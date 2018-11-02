@@ -1,0 +1,58 @@
+{
+  "schools" : [
+    {
+      "name" : "Cincinnati",
+      "abbrev": "CIN",
+      "mascot": "Bearcats",
+      "pic": "/logos/cincinnati.png"
+    },
+    {
+      "name" : "Connecticut",
+      "abbrev": "CONN",
+      "mascot": "Huskies",
+      "pic": "/logos/connecticut.png"
+    },
+    {
+      "name" : "East Carolina",
+      "abbrev": "ECU",
+      "mascot": "Pirates",
+      "pic": "/logos/eastCarolina.png"
+    },
+    {
+      "name" : "Houston",
+      "abbrev": "HOU",
+      "mascot": "Cougars",
+      "pic": "/logos/houston.png"
+    },
+    {
+      "name" : "Memphis",
+      "abbrev": "MEM",
+      "mascot": "Tigers",
+      "pic": "/logos/memphis.png"
+    },
+    {
+      "name" : "CincNavyinnati",
+      "abbrev": "NAVY",
+      "mascot": "Midshipmen",
+      "pic": "/logos/navy.png"
+    },
+    {
+      "name" : "CincSMUinnati",
+      "abbrev": "SMU",
+      "mascot": "Mustangs",
+      "pic": "/logos/smu.png"
+    },
+    {
+      "name" : "South Florida",
+      "abbrev": "USF",
+      "mascot": "Bulls",
+      "pic": "/logos/southFlorida.png"
+    },
+    {
+      "name" : "Temple",
+      "abbrev": "TEM",
+      "mascot": "Owls",
+      "pic": "/logos/temple.png"
+    }
+  ]
+}

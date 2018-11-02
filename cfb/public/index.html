@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>College Football Team</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <h2>Which College Football team would you play on?</h2>
+    <form>
+      Enter Height: <input type="text" id="height" value="" /><br>
+      Enter Weight: <input type="text" id="weight" value=""/><br>
+      <button id="footballbutton">Submit</button> Team:
+      <span id="results"></span>
+    </form>
+    <script>
+      $("#footballbutton").click(function(event) {
+          event.preventDefault();
+          var url = 'getteam';
+          $.getJSON(url, function(data) {
+            console.log(data)
+            var everything;
+            everything = "<ul>";
+            everything += "<li> " + data[0];
+            everything += "<li> " + data[1];
+            everything += "<li><img src='" + data[2] + "'>";
+          everything += "</ul>";
+          $("#results").html(everything);
+        });
+          })
+    </script>
+
+</body>
+
+</html>

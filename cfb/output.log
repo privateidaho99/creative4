@@ -1,0 +1,52 @@
+nohup: ignoring input
+Starting on 3004
+[0mGET /? [32m200 [0m9.349 ms - 1075[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.528 ms - 111[0m
+3
+Houston
+Cougars
+/logos/houston.png
+[0mGET /getteam [32m200 [0m13.368 ms - 42[0m
+[0mGET /logos/houston.png [32m200 [0m1.029 ms - 3343[0m
+7
+South Florida
+Bulls
+/logos/southFlorida.png
+[0mGET /getteam [32m200 [0m1.954 ms - 51[0m
+[0mGET /logos/southFlorida.png [32m200 [0m1.025 ms - 8165[0m
+7
+South Florida
+Bulls
+/logos/southFlorida.png
+[0mGET /getteam [36m304 [0m1.521 ms - -[0m
+0
+Cincinnati
+Bearcats
+/logos/cincinnati.png
+[0mGET /getteam [32m200 [0m0.796 ms - 49[0m
+[0mGET /logos/cincinnati.png [32m200 [0m0.691 ms - 4107[0m
+5
+CincNavyinnati
+Midshipmen
+/logos/navy.png
+[0mGET /getteam [32m200 [0m0.808 ms - 49[0m
+[0mGET /logos/navy.png [32m200 [0m1.665 ms - 3585[0m
+7
+South Florida
+Bulls
+/logos/southFlorida.png
+[0mGET /getteam [32m200 [0m1.387 ms - 51[0m
+8
+Temple
+Owls
+/logos/temple.png
+[0mGET /getteam [32m200 [0m0.834 ms - 37[0m
+[0mGET /logos/temple.png [32m200 [0m0.629 ms - 1202[0m
+7
+South Florida
+Bulls
+/logos/southFlorida.png
+[0mGET /getteam [32m200 [0m1.321 ms - 51[0m
+[0mGET / [32m200 [0m0.906 ms - 1075[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.576 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m359.937 ms - 1092[0m
