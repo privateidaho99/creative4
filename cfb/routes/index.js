@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 
 
 router.get('/getteam', function(req, res, next) {
-    fs.readFile('./public/test.json', 'utf8', function (err, data) {
+    fs.readFile('./public/collegeFootball.json', 'utf8', function (err, data) {
         if (err) throw err
         obj = JSON.parse(data);
         

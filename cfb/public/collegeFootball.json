@@ -1,7 +1,7 @@
 {
   "schools" : [
   {
-    "name": Cincinnati",
+    "name": "Cincinnati",
     "abbrev": "CIN",
     "mascot": "Bearcats",
     "pic": "./collegeFootball/logos/cincinnati.png"
@@ -318,8 +318,8 @@
     "mascot": "Golden Panthers",
     "pic": "./collegeFootball/logos/floridaIntl.png"
   },
-  uisiana Tech": {
-    "name": "XXXXXXXXXXXXXXXX",
+  {
+    "name": "Louisiana Tech",
     "abbrev": "LT",
     "mascot": "Bulldogs",
     "pic": "./collegeFootball/logos/louisianaTech.png"

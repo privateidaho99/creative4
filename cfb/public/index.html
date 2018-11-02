@@ -8,32 +8,36 @@
 
 </head>
 
-<body>
+<body class="img-back">
 
-  <h2>Which College Football team would you play on?</h2>
-    <form>
-      Enter Height: <input type="text" id="height" value="" /><br>
-      Enter Weight: <input type="text" id="weight" value=""/><br>
-      <button id="footballbutton">Submit</button> Team:
-      <span id="results"></span>
-    </form>
-    <script>
-      $("#footballbutton").click(function(event) {
+  <h2 class="top-header">Which college football team would you play on?</h2>
+  <h4 class="created">Created by: Ben DeMordaunt & Carson Campbell</h4>
+  <div class="centered">
+    <div class="wrap">
+      <form>
+        Enter Height: <input type="text" id="height" value="" placeholder="Enter in inches" /><br> 
+        Enter Weight: <input type="text" id="weight" value="" placeholder="Enter in lbs" /><br>
+        <button id="footballbutton">Submit</button>
+        <span id="results"></span>
+      </form>
+      <script>
+        $("#footballbutton").click(function(event) {
           event.preventDefault();
           var url = 'getteam';
           $.getJSON(url, function(data) {
             console.log(data)
             var everything;
             everything = "<ul>";
-            everything += "<li> " + data[0];
-            everything += "<li> " + data[1];
-            everything += "<li><img src='" + data[2] + "'>";
-          everything += "</ul>";
-          $("#results").html(everything);
-        });
-          })
-    </script>
-
+            everything += "<ul>Team: " + data[0];
+            everything += "<ul>Mascot: " + data[1];
+            everything += "<ul><img src='" + data[2] + "'>";
+            everything += "</ul>";
+            $("#results").html(everything);
+          });
+        })
+      </script>
+    </div>
+  </div>
 </body>
 
 </html>
